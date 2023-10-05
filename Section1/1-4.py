@@ -29,7 +29,7 @@ def mse_loss(y_pred, y):
 
 # 최적화를 위한 그라디언트 디센트 옵티마이저를 정의합니다.
 # optimizer class 사용(SGD - mini-batch optimization 사용)
-optimizer = tf.optimizers.SGD(0.01) # running rate - 0.01
+optimizer = tf.optimizers.SGD(0.01) # learning rate - 0.01
 
 # 최적화를 위한 function을 정의합니다.
 # step update function을 train_step으로 대부분 사용
